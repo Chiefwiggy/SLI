@@ -237,6 +237,14 @@ const makeExpressionArray = (exp) => {
 };
 ```
 
+<details>
+<summary>Click to reveal spoiler</summary>
+
+This text will be hidden until the user clicks on the summary.
+
+</details>
+
+
 
 
 
