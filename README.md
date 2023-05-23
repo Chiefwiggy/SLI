@@ -168,8 +168,18 @@ whereas our SLI uses infix operator format:
 ### Hints
 ##### DO NOT READ UNLESS YOU ARE STUCK
 
+
+
+<details>
+<summary>Reveal Hint 1</summary>
+
 #### Hint 1
 Using the nested array structure we created above, it may help us if we were to convert that from infix notation to prefix notation.
+
+</details>
+
+<details>
+<summary>Reveal Hint 2</summary>
 
 #### Hint 2
 Notice how for 3 elements, we don't have multiple ORs or ANDs in MongoDB, so we want to find a way to rewrite a statement like this:
@@ -182,7 +192,10 @@ TO
 `
 ['|', "l:0","l:1","l:2"]
 `
-
+</details>
+ <details>
+<summary>Reveal Hint 3</summary>
+  
 #### Hint 3
 
 If you just want to get into the conversion part of the problem, this function will help you get there. It's not the most efficient way to do it, but that's something you can come back to later if you'd like.
@@ -236,13 +249,8 @@ const makeExpressionArray = (exp) => {
     return expArray;
 };
 ```
-
-<details>
-<summary>Click to reveal spoiler</summary>
-
-This text will be hidden until the user clicks on the summary.
-
 </details>
+
 
 
 
